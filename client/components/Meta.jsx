@@ -5,7 +5,7 @@ const Meta = () => (
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta charSet="utf-8" />
 		<link rel="shortcut icon" href="/static/favicon.ico" />
-		<link rel="stylesheet" href="text/css" href="/static.nprogress.css" />
+		<link rel="stylesheet" href="text/css" href="/static/nprogress.css" />
 		<title>Munchies</title>
 	</Head>
 );
