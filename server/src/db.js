@@ -1,9 +1,9 @@
 const { Prisma } = require("prisma-binding");
 
 const db = new Prisma({
-	typeDefs: "src/grenerated/prisma.graphql",
+	typeDefs: "src/generated/prisma.graphql",
 	endpoint: process.env.PRISMA_ENDPOINT,
-	secret: proces.env.PRISMA_SECRET,
+	secret: process.env.PRISMA_SECRET,
 });
 
 module.exports = db;
