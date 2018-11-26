@@ -17,6 +17,9 @@ const Mutations = {
 			info
 		);
 	},
+	deleteItem(parent, args, { db }, info) {
+		return db.mutation.deleteItem({ where: { id: args.id } });
+	},
 };
 
 module.exports = Mutations;
