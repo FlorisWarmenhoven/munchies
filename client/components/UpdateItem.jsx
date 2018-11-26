@@ -34,6 +34,7 @@ const GET_ITEM_QUERY = gql`
 			title
 			description
 			price
+			largeImage
 		}
 	}
 `;
@@ -125,4 +126,4 @@ class UpdateItem extends Component {
 	}
 }
 
-export { UPDATE_ITEM_MUTATION, UpdateItem as default };
+export { UPDATE_ITEM_MUTATION, GET_ITEM_QUERY, UpdateItem as default };
